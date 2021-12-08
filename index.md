@@ -27,16 +27,21 @@ h2 {
 <a href="https://www.roppers.org/">Hopper's Roppers</a>
   
 <p>Here is a wonderful pic of a dog.</p>
-<p id="add" onclick="funcy()">Click here to see another!</p>
-<img src="https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.jpg" alt="A beautiful Treeing Walker Coonhound">
+<p>Click here to see another!</p>
+<img src="https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.jpg" alt="A beautiful Treeing Walker Coonhound" id="change" onclick="funcy()">
   
-</body>
-  
- <script>
+ <script language="javascript">
  function funcy() {
-  var img = document.createElement('img');
-  img.src = 'https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.young_.jpg';
-  document.getElementById('add').appendChild(img);
+  if (document.getElementById("change").src == "https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.jpg")
+   {
+   document.getElementById("change").src = "https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.young_.jpg";
+   }
+  else
+   {
+   document.getElementById("change").src = "https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.jpg";
+   }
+  }
  </script>
   
+</body>
 </html>
