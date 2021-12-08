@@ -24,5 +24,9 @@ opacity: .6;
   
 <p>This site helps to showcase some of the skills learned in the Computing Fundamentals course available at the Hopper's Roppers website, created by Dennis Devey.</p>
 <a href="https://www.roppers.org/">Hopper's Roppers</a>
+  
+<p>Here is a wonderful pic of a dog.</p>
+<img src="https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.jpg" alt="A beautiful Treeing Walker Coonhound">
+  
 </body>
 </html>
