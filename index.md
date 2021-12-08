@@ -1,6 +1,10 @@
 <html>
 <head>
 <style>
+body {
+  background-color: #c4c4c4;
+  opacity: .6;
+}
 h1 {
   background-color: powderblue;
   font-family: century gothic;
@@ -14,10 +18,6 @@ h2 {
 </style>
 </head>
 <body>
-{
-background-color: #c4c4c4;
-opacity: .6;
-}
 <h1>Hey, Traveler!</h1>
 
 <p>This is my second website. The first one has been lost to the black hole that is the internet!</p>
