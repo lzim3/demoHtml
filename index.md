@@ -1,6 +1,8 @@
 <html>
 <head>
 <style>
+background-color: gray;
+opacity: .6;
 h1 {
   background-color: powderblue;
   font-family: century gothic;
