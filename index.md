@@ -35,6 +35,6 @@ h2 {
   var img = document.createElement('img');
   img.src = 'https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.young_.jpg';
   document.getElementById('body').appendChild(img);
-</script
+  </script>
 </body>
 </html>
