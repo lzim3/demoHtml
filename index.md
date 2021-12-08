@@ -29,12 +29,14 @@ h2 {
 <p>Here is a wonderful pic of a dog.</p>
 <p id="add" onclick="funcy()">Click here to see another!</p>
 <img src="https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.jpg" alt="A beautiful Treeing Walker Coonhound">
-<script>
+  
+</body>
+  
+ <script>
  function funcy() {
   var img = document.createElement('img');
   img.src = 'https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.young_.jpg';
   document.getElementById('add').appendChild(img);
-  </script>
+ </script>
   
-</body>
 </html>
