@@ -7,7 +7,7 @@
   
 <h2>The Journey is Long, but not Lonely</h2>
   
-<p>This site is to showcase some of the skills learned in the Computing Fundamentals course available at the Hopper's Roppers website, created by Dennis Devney<a>https://www.roppers.org/</a></p>
-
+<p>This site is to showcase some of the skills learned in the Computing Fundamentals course available at the Hopper's Roppers website, created by Dennis Devey</p>
+<a>https://www.roppers.org/</a>
 </body>
 </html>
