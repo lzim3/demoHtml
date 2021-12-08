@@ -26,15 +26,15 @@ h2 {
 <p>This site helps to showcase some of the skills learned in the Computing Fundamentals course available at the Hopper's Roppers website, created by Dennis Devey.</p>
 <a href="https://www.roppers.org/">Hopper's Roppers</a>
   
-<p>Here is a wonderful pic of a dog. Click the image to see another!</p>
-<button onclick="funcy()">
+<p>Here is a wonderful pic of a dog.</p>
+<p id="add" onclick="funcy()">Click here to see another!</p>
 <img src="https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.jpg" alt="A beautiful Treeing Walker Coonhound">
-</button>
 <script>
  function funcy() {
   var img = document.createElement('img');
   img.src = 'https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.young_.jpg';
-  document.getElementById('body').appendChild(img);
+  document.getElementById('add').appendChild(img);
   </script>
+  
 </body>
 </html>
