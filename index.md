@@ -3,7 +3,6 @@
 <style>
 body {
   background-color: #c4c4c4;
-  opacity: .6;
 }
 h1 {
   background-color: powderblue;
@@ -27,8 +26,15 @@ h2 {
 <p>This site helps to showcase some of the skills learned in the Computing Fundamentals course available at the Hopper's Roppers website, created by Dennis Devey.</p>
 <a href="https://www.roppers.org/">Hopper's Roppers</a>
   
-<p>Here is a wonderful pic of a dog.</p>
+<p>Here is a wonderful pic of a dog. Click the image to see another!</p>
+<button onclick="funcy()">
 <img src="https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.jpg" alt="A beautiful Treeing Walker Coonhound">
-  
+</button>
+<script>
+ function funcy() {
+  var img = document.createElement('img');
+  img.src = 'https://www.akc.org/wp-content/uploads/2017/11/Treeing-Walker-Coonhound.young_.jpg';
+  document.getElementById('body').appendChild(img);
+</script
 </body>
 </html>
