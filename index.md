@@ -1,7 +1,8 @@
 <html>
 <head>
 <style>
-h1 {background-color: powderblue;}
+h1 {background-color: blue;}
+h2 {background-color: powderblue;}
 </style>
 </head>
 <body>
